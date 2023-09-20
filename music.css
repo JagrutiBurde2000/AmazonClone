@@ -178,10 +178,14 @@ span {
 /* Shop Section */
 
 .See-more {
-    display: flex;
+   
+     /* display: flex; */
     /* flex-direction: row; */
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center;
+    align-items: center;  */
+    position: absolute;
+    top:85%;
+     right:35%;
     padding: 7px 14px;
     font-size: .9rem;
     border: none;
@@ -217,12 +221,13 @@ span {
 
 .box {
     /* border: 2px solid black; */
-    height: 350px;
-    width: 20%;
+    height: 400px;
+    width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
     margin-left: 1rem;
+    position: relative;
 }
 .caption {
     margin-bottom:0.8rem;

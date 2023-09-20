@@ -178,10 +178,14 @@ span {
 /* Shop Section */
 
 .See-more {
-    display: flex;
+   
+      /* display: flex; */
     /* flex-direction: row; */
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center;
+    align-items: center;  */
+    position: absolute;
+    top:85%;
+     right:35%;
     padding: 7px 14px;
     font-size: .9rem;
     border: none;
@@ -223,6 +227,7 @@ span {
     padding: 20px 0px 15px;
     margin-top: 15px;
     margin-left: 1rem;
+    position: relative;
 }
 .caption {
     margin-bottom:0.8rem;
@@ -240,25 +245,25 @@ span {
 
 }
 #ab1 {
-    height: 200px;
-    width: 280px;
+    height: 150px;
+    width: 180px;
     /* margin: auto; */
     margin-top: 32px;
     margin-bottom: 30px;
 }
 #ab2 {
-    height: 215px;
-    width: 115px;
+    height: 160px;
+    width: 100px;
     margin: auto;
     /* margin-top: 40px; */
     /* margin-bottom: 30px;  */
 }
 #ab3 {
     /* margin-top: 0px; */
-    height: 220px;
-    width: 290px;
+    height: 160px;
+    width: 200px;
     /* margin: auto; */
-    margin-top: 32px;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 #beginner-title {
@@ -266,30 +271,31 @@ span {
     margin-bottom: 0%;
 }
 #ab4 {
-    height: 280px;
-    width: 280px;
+    height: 210px;
+    width: 200px;
     margin: auto;
 }
 #ab5 {
-    height: 255px;
-    width: 252px;
+    height: 210px;
+    width: 200px;
     /* margin: auto; */
     /* margin-bottom: 15px; */
+    margin-top: 20%;
 }
 #ab6 {
-    height: 200px;
-    width: 240px;
+    height: 130px;
+    width: 160px;
     /* margin: auto; */
-    /* margin-bottom: 9px; */
+    margin-bottom: 9px;
 }
 #ab7 {
-    height: 240px;
-    width: 240px;
+    height: 180px;
+    width: 180px;
     /* margin: auto; */
 }
 #ab8 {
-    height: 220px;
-    width: 220px;
+    height: 210px;
+    width: 200px;
     /* margin: auto; */
     /* margin-top: 5px; */
 }

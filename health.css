@@ -178,10 +178,10 @@ span {
 /* Shop Section */
 
 .See-more {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; */
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center;
+    align-items: center;  */
     position: absolute;
     top:85%;
      right:35%;
@@ -236,7 +236,7 @@ span {
     font-size: 18px;
 }
 .box-img {
-    height: 265px;
+    height: 200px;
     width: 200px;
     background-size: cover;
     /* margin-top: 1rem; */

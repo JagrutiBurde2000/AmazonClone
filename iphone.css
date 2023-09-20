@@ -178,10 +178,13 @@ span {
 /* Shop Section */
 
 .See-more {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; */
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center;
+    align-items: center;  */
+    position: absolute;
+    top:90%;
+     right:35%;
     padding: 7px 14px;
     font-size: .9rem;
     border: none;
@@ -223,6 +226,7 @@ span {
     padding: 20px 0px 15px;
     margin-top: 15px;
     margin-left: 1rem;
+    position: relative;
 }
 .caption {
     margin-bottom:0.8rem;
@@ -243,14 +247,17 @@ span {
     width: 195px;
     
 }
+.caption{
+    font-size: 20px;
+}
 #iphone-12 {
-    height:275px;
-    width: 270px;
+    height:260px;
+    width: 250px;
     margin: auto;
 }
 #iphone-14-pro-max {
-    height:275px;
-    width: 270px;
+    height:260px;
+    width: 240px;
     margin: auto;
 }
 #iphone-14-plus {
@@ -258,8 +265,8 @@ span {
     /* margin: auto; */
 }
 #iphone-se {
-    height: 277px;
-    width: 270px;
+    height:260px;
+    width: 250px;
     margin: auto;
 }
 

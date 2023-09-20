@@ -178,10 +178,13 @@ span {
 /* Shop Section */
 
 .See-more {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; */
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center;
+    align-items: center;  */
+    position: absolute;
+    top:85%;
+     right:35%;
     padding: 7px 14px;
     font-size: .9rem;
     border: none;
@@ -223,6 +226,7 @@ span {
     padding: 20px 0px 15px;
     margin-top: 15px;
     margin-left: 1rem;
+    position: relative;
 }
 .caption {
     margin-bottom:0.8rem;
@@ -239,20 +243,20 @@ span {
 
 }
 #peanut-butter {
-    height: 250px;
-    width: 150px;
+    height: 200px;
+    width: 120px;
     margin: auto;
 }
 #whey-bio {
-    height: 245px;
-    width: 150px;
+    height: 200px;
+    width: 120px;
     margin: auto;
     margin-bottom: 4px;
 }
 #beginner {
     /* margin-top: 0px; */
-    height: 260px;
-    width: 185px;
+    height: 210px;
+    width: 130px;
     margin: auto;
     /* margin-bottom:0%; */
 }
@@ -261,18 +265,18 @@ span {
     margin-bottom: 0%;
 }
 #shaker {
-    height: 250px;
-    width: 175px;
+    height: 220px;
+    width: 150px;
     margin: auto;
 }
 #hk {
-    height: 238px;
-    width: 138px;
+    height: 220px;
+    width: 130px;
     /* margin: auto; */
 }
 #mb-fish {
-    height: 238px;
-    width: 138px;
+    height: 220px;
+    width: 120px;
     /* margin: auto; */
 }
 
